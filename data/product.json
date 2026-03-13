@@ -1,20 +1,21 @@
 [
     {
         "id": 1,
-        "name": "Followers Channel WhatsApp",
+        "name": "Member Channel WhatsApp",
         "price": "Rp 100",
         "min_buy": 10,
-        "max_buy": 5000,
+        "max_buy": 10000,
         "stock": 99999,
         "img": "../../../assets/img/product-img/wa-member.png",
-        "desc": "Layanan penambahan followers untuk Channel WhatsApp secara cepat dan aman.",
+        "desc": "Layanan penambah member Channel WhatsApp dengan proses cepat dan aman.",
         "category": "Media",
         "version": "2026",
         "license": "Instant Delivery",
         "info": [
-            "Followers masuk dari 1 menit - 1 jam",
-            "Proses hanya memerlukan link channel WhatsApp",
-            "Garansi 30 hari"
+            "Kecepatan hingga 2.000/hari",
+            "Mulai proses 0 - 4 hari",
+            "Garansi isi ulang 30 hari",
+            "Rata-rata proses 4 jam 46 menit"
         ]
     }
 ]
