@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: radial-gradient(circle at top, #0f2027, #000000);
+}
+
+.card {
+    width: 350px;
+    padding: 35px 25px;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(0, 255, 255, 0.3);
+    border-radius: 25px;
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.4);
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.link-btn {
+    display: block;
+    padding: 12px;
+    margin: 15px 0;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(45deg, #00ffff, #39ff14);
+    border-radius: 12px;
+    box-shadow: 0 0 15px #00ffff;
+    transition: 0.3s ease;
+}
+
+.link-btn:hover {
+    box-shadow: 0 0 25px #39ff14;
+    transform: translateY(-3px);
+}
+
+.footer-text {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #00ffff;
+    text-shadow: 0 0 8px #00ffff, 0 0 15px #39ff14;
+    opacity: 0.9;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 400px) {
+    .card {
+        width: 100%;
+    }
+
+    .qris-img {
+        width: 200px;
+    }
+}

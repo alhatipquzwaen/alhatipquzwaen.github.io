@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle at top, #0f2027, #000000);
+}
+
+.card {
+    width: 350px;
+    padding: 35px 25px;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(0, 255, 255, 0.3);
+    border-radius: 25px;
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.4);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.donate-card {
+    padding-top: 40px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.donate-text {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.qris-img {
+    width: 230px;
+    margin: 20px 0;
+    border: 3px solid #00ffff;
+    border-radius: 18px;
+    box-shadow: 0 0 25px #00ffff;
+    transition: 0.4s ease;
+}
+
+.qris-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 35px #39ff14;
+}
+
+.link-btn {
+    display: block;
+    padding: 12px;
+    margin: 15px 0;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(45deg, #00ffff, #39ff14);
+    border-radius: 12px;
+    box-shadow: 0 0 15px #00ffff;
+    transition: 0.3s ease;
+}
+
+.link-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 25px #39ff14;
+}
+
+.footer-text {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #00ffff;
+    text-shadow: 0 0 8px #00ffff, 0 0 15px #39ff14;
+    opacity: 0.9;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 400px) {
+    .card {
+        width: 90%;
+    }
+
+    .qris-img {
+        width: 200px;
+    }
+}

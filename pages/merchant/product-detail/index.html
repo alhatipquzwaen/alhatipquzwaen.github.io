@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Detail Produk | Alhatip Quzwaen</title>
+        <link rel="icon" type="image/png" href="../../../assets/img/merchant-favicon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="stylesheet" href="../../../assets/css/product-detail-style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">Alhatip Quzwaen</div>
+            <div class="search-box">
+                <i class="fa-solid fa-search"></i>
+                <input type="text" placeholder="Cari produk...">
+            </div>
+            <i class="fa-solid fa-cart-shopping header-icon"></i>
+        </header>
+
+        <main id="mainContent">
+            <a href="../" class="back">
+                <i class="fa-solid fa-arrow-left"></i> Kembali
+            </a>
+
+            <div class="product-image">
+                <img id="productImg" src="" alt="Produk">
+            </div>
+
+            <div class="product-info">
+                <h1 id="productName">Loading...</h1>
+                <div class="price" id="totalPrice">Rp 0</div>
+                <div class="stock-info" id="productStock">Stok: -</div>
+                <p class="description" id="productDesc"></p>
+
+                <label class="qty-label">Jumlah Pembelian:</label>
+                <div class="quantity-control">
+                    <button class="qty-btn" id="minusBtn">-</button>
+                    <input type="number" class="qty-input" id="qtyInput" value="1">
+                    <button class="qty-btn" id="plusBtn">+</button>
+                </div>
+
+                <div class="product-meta">
+                    <div class="meta-item">
+                        <span>Kategori</span>
+                        <p id="productCategory">-</p>
+                    </div>
+                    <div class="meta-item">
+                        <span>Versi</span>
+                        <p id="productVersion">-</p>
+                    </div>
+                    <div class="meta-item">
+                        <span>Lisensi</span>
+                        <p id="productLicense">-</p>
+                    </div>
+                </div>
+
+                <div class="product-extra" id="productExtra"></div>
+
+                <div class="action-buttons">
+                    <a id="buyLink" href="#" class="buy-btn">
+                        <i class="fa-solid fa-bolt"></i> Beli Sekarang
+                    </a>
+                    <a id="waLink" href="#" class="wa-btn">
+                        <i class="fa-brands fa-whatsapp"></i> Chat Penjual
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <div id="stockPopup" class="popup-overlay">
+            <div class="popup-box">
+                <i class="fa-solid fa-circle-exclamation popup-icon"></i>
+                <h3 id="popupTitle">Peringatan</h3>
+                <p id="popupMsg">Jumlah tidak sesuai.</p>
+                <button id="closePopup">OK</button>
+            </div>
+        </div>
+
+        <script src="../../../assets/js/product-detail-script.js"></script>
+    </body>
+</html>

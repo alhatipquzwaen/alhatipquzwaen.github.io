@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alhatip Quzwaen | Merchant Mini</title>
+        <link rel="icon" type="image/png" href="../../assets/img/merchant-favicon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="stylesheet" href="../../assets/css/merchant-style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">Alhatip Quzwaen</div>
+            <div class="search-box">
+                <i class="fa-solid fa-search"></i>
+                <input type="text" id="searchInput" placeholder="Cari produk...">
+            </div>
+            <i class="fa-solid fa-cart-shopping header-icon"></i>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h1>Merchant Mini</h1>
+                <p>Tempat menemukan berbagai produk dan layanan terbaik dengan pilihan yang beragam untuk setiap kebutuhan Anda</p>
+            </section>
+
+            <h2 class="section-title">Produk Populer</h2>
+
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="media">Media</button>
+            </div>
+
+            <div class="pagination-container">
+                <button id="prevPage" class="pag-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                <div id="pageNumbers" class="page-numbers"></div>
+                <button id="nextPage" class="pag-btn"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+
+            <section class="products" id="productList"></section>
+        </main>
+
+        <script src="../../assets/js/merchant-script.js"></script>
+    </body>
+</html>

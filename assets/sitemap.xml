@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://alhatipquzwaen.my.id/</loc>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://alhatipquzwaen.my.id/pages/donations/</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://alhatipquzwaen.my.id/pages/merchant/</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://alhatipquzwaen.my.id/pages/projects/</loc>
+        <priority>0.8</priority>
+    </url>
+</urlset>
