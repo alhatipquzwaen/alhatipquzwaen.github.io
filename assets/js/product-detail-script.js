@@ -82,7 +82,7 @@ fetch("../../../data/product.json")
             document.getElementById("productImg").src = product.img;
             document.getElementById("productName").textContent = product.name;
             document.getElementById("productDesc").textContent = product.desc;
-            document.getElementById("productStock").textContent = `Stok tersedia: ${currentStock}`;
+            document.getElementById("productStock").textContent = `Stok: ${currentStock}`;
             document.getElementById("productCategory").textContent = product.category;
             document.getElementById("productVersion").textContent = product.version;
             document.getElementById("productLicense").textContent = product.license;
