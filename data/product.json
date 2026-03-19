@@ -1,16 +1,54 @@
 [
     {
         "id": 1,
-        "name": "Member Channel WhatsApp",
-        "price": "Rp 100",
+        "name": "TikTok Followers Tanpa Garansi",
+        "price": "Rp 60",
         "min_buy": 10,
-        "max_buy": 10000,
-        "stock": 99999,
-        "img": "../../../assets/img/product-img/whatsapp.png",
-        "desc": "Layanan penambah member Channel WhatsApp dengan proses cepat dan aman.",
+        "max_buy": 10000000,
+        "stock": "Tersedia",
+        "img": "../../../assets/img/product-img/tiktok.png",
+        "desc": "Layanan penambah followers TikTok dengan proses cepat, aman, dan berkualitas ( tanpa garansi isi ulang ).",
         "category": "Media Sosial",
         "version": "2026",
-        "license": "Instant Delivery",
+        "license": "Manual Service",
+        "info": [
+            "Kecepatan hingga 100.000/hari",
+            "Berkualitas tinggi",
+            "Tanpa garansi isi ulang",
+            "Rata-rata proses 4 jam 41 menit"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "WhatsApp Channel Member Tanpa Garansi",
+        "price": "Rp 70",
+        "min_buy": 10,
+        "max_buy": 50000,
+        "stock": "Tersedia",
+        "img": "../../../assets/img/product-img/whatsapp.png",
+        "desc": "Layanan penambah member Channel WhatsApp dengan proses cepat, aman, dan stabil ( tanpa garansi isi ulang ).",
+        "category": "Media Sosial",
+        "version": "2026",
+        "license": "Manual Service",
+        "info": [
+            "Kecepatan hingga 1.000/hari",
+            "Mulai proses 0 - 4 hari",
+            "Tanpa garansi isi ulang",
+            "Rata-rata proses 45 menit"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "WhatsApp Channel Member Bergaransi 30 Hari",
+        "price": "Rp 90",
+        "min_buy": 10,
+        "max_buy": 10000,
+        "stock": "Tersedia",
+        "img": "../../../assets/img/product-img/whatsapp.png",
+        "desc": "Layanan penambah member Channel WhatsApp dengan proses cepat, aman, dan stabil ( bergaransi isi ulang 30 hari ).",
+        "category": "Media Sosial",
+        "version": "2026",
+        "license": "Manual Service",
         "info": [
             "Kecepatan hingga 2.000/hari",
             "Mulai proses 0 - 4 hari",
