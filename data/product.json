@@ -1,54 +1,16 @@
 [
     {
-        "id": 1, /* 1520 */
-        "name": "TikTok Followers Tanpa Garansi",
-        "price": "Rp 60",
-        "min_buy": 10,
-        "max_buy": 10000000,
-        "stock": 999999999,
-        "img": "../../../assets/img/product-img/tiktok.png",
-        "desc": "Layanan penambah followers TikTok dengan proses cepat, aman, dan berkualitas ( tanpa garansi isi ulang ).",
-        "category": "Media Sosial",
-        "version": "2026",
-        "license": "Manual",
-        "info": [
-            "Kecepatan hingga 100.000/hari",
-            "Berkualitas tinggi",
-            "Tanpa garansi isi ulang",
-            "Rata-rata proses 4 jam 41 menit"
-        ]
-    },
-    {
-        "id": 2, /* 1285 */
-        "name": "WhatsApp Channel Member Tanpa Garansi",
-        "price": "Rp 70",
-        "min_buy": 10,
-        "max_buy": 50000,
-        "stock": 999999999,
-        "img": "../../../assets/img/product-img/whatsapp.png",
-        "desc": "Layanan penambah member Channel WhatsApp dengan proses cepat, aman, dan stabil ( tanpa garansi isi ulang ).",
-        "category": "Media Sosial",
-        "version": "2026",
-        "license": "Manual",
-        "info": [
-            "Kecepatan hingga 1.000/hari",
-            "Mulai proses 0 - 4 hari",
-            "Tanpa garansi isi ulang",
-            "Rata-rata proses 45 menit"
-        ]
-    },
-    {
-        "id": 3, /* 1287 */
-        "name": "WhatsApp Channel Member Bergaransi 30 Hari",
-        "price": "Rp 90",
+        "id": 1,
+        "name": "Member Channel WhatsApp",
+        "price": "Rp 100",
         "min_buy": 10,
         "max_buy": 10000,
-        "stock": 999999999,
+        "stock": 99999,
         "img": "../../../assets/img/product-img/whatsapp.png",
-        "desc": "Layanan penambah member Channel WhatsApp dengan proses cepat, aman, dan stabil ( bergaransi isi ulang 30 hari ).",
+        "desc": "Layanan penambah member Channel WhatsApp dengan proses cepat dan aman.",
         "category": "Media Sosial",
         "version": "2026",
-        "license": "Manual",
+        "license": "Instant Delivery",
         "info": [
             "Kecepatan hingga 2.000/hari",
             "Mulai proses 0 - 4 hari",
