@@ -35,7 +35,7 @@ function updateDetails() {
         showPopup("Batas Maksimal", `Maaf, batas maksimal pembelian produk ini adalah ${maxBuy} unit.`);
     }
 
-    if (qty > currentStock) {
+    if (currentStock !== Infinity && qty > currentStock) {
         qty = currentStock;
         qtyInput.value = currentStock;
         showPopup("Stok Tidak Cukup", `Maaf, stok hanya tersedia ${currentStock} unit.`);
@@ -75,14 +75,25 @@ fetch("../../../data/product.json")
         if (product) {
             productData = product;
             basePrice = parseInt(product.price.replace(/[^0-9]/g, ""));
-            currentStock = product.stock;
+
+            if (product.stock === "Tersedia") {
+                currentStock = Infinity;
+            } else {
+                currentStock = parseInt(product.stock);
+            }
+
             minBuy = product.min_buy || 1;
             maxBuy = product.max_buy || currentStock;
 
             document.getElementById("productImg").src = product.img;
             document.getElementById("productName").textContent = product.name;
             document.getElementById("productDesc").textContent = product.desc;
-            document.getElementById("productStock").textContent = `Stok: ${currentStock}`;
+
+            document.getElementById("productStock").textContent =
+                product.stock === "Tersedia"
+                    ? "Stok: Tersedia"
+                    : `Stok: ${currentStock}`;
+
             document.getElementById("productCategory").textContent = product.category;
             document.getElementById("productVersion").textContent = product.version;
             document.getElementById("productLicense").textContent = product.license;
@@ -101,7 +112,7 @@ fetch("../../../data/product.json")
 
             document.getElementById("plusBtn").onclick = () => {
                 let val = parseInt(qtyInput.value);
-                if (val < maxBuy && val < currentStock) {
+                if (val < maxBuy && (currentStock === Infinity || val < currentStock)) {
                     qtyInput.value = val + 1;
                     updateDetails();
                 } else {
